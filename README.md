@@ -25,9 +25,13 @@ Then, open a terminal.
 
     # install a vagrant box that has Ubuntu 14 and Puppet 3.6.1
     vagrant box add nercceh/ubuntu14.04
+
+    # start the box
+    vagrant up
+
 ```
 
-At this point, you can perform `vagrant up` and you should see the following:
+You should see the following:
 
 ```
 ==> default: Running provisioner: puppet...
