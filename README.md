@@ -82,7 +82,7 @@ Just clear out the `modules/helloworld/manifests/init.pp` file with the followin
     sed -iE "s/    .*//g" modules/helloworld/manifests/init.pp
 ```
     
-This will leave you with a nice blank module to pop your code into, like so:
+This will leave you with a nice blank module to pop your code into.  Fill 'er up, like so:
     
 ```puppet
     # == Class: helloworld
