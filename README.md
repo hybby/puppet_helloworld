@@ -63,11 +63,11 @@ For subsequent runs and testing, you can use `vagrant provision` without having 
 
 The default notifies test a few things.
 
-    - `foo` tests custom facts and should return `bar`
-    - `baz` tests Hiera lookups from within modules and should return `qux`
-    - `garply` tests parameters that are set from within modules and should return `waldo`
-    - `fred` tests parameters that are set from within profiles and should return `plugh`
-    - `xyzzy` tests Hiera lookups from within profiles and should return `thud`
+  - `foo` tests custom facts and should return `bar`
+  - `baz` tests Hiera lookups from within modules and should return `qux`
+  - `garply` tests parameters that are set from within modules and should return `waldo`
+  - `fred` tests parameters that are set from within profiles and should return `plugh`
+  - `xyzzy` tests Hiera lookups from within profiles and should return `thud`
 
 With these, you can test how different pieces of data are passed into modules.  
 
