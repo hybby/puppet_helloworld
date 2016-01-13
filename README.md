@@ -76,10 +76,10 @@ This is particularly useful if you want to test [Roles and Profiles](https://git
 
 ## What if I just want to test out a blank module?
     
-    Just edit the `modules/helloworld/manifests/init.pp` file with the following:
+Just clear out the `modules/helloworld/manifests/init.pp` file with the following:
     
 ```bash
-    sed -i "s/    .*//g" modules/helloworld/manifests/init.pp
+    sed -iE "s/    .*//g" modules/helloworld/manifests/init.pp
 ```
     
 This will leave you with a nice blank module to pop your code into, like so:
@@ -91,22 +91,16 @@ This will leave you with a nice blank module to pop your code into, like so:
     
     class helloworld (
     
-    
-    
     ){
+        # testing split
+        $ip = '123.123.123.123'
+        $octets = split($ip, '[.]')
     
-    
-    
-    
-    
-    
-    
-    
-    
+        notify{"octets look like: ${octets}": }
     }
 ```
 
-You may or may not need to remove data passed into the class from `modules/profiles/manifests/helloworld.pp`.  
+You then need to remove data passed into the class from `modules/profiles/manifests/helloworld.pp`.  (untested as of yet)
 
 To do this, comment out the `class` definition...
 
