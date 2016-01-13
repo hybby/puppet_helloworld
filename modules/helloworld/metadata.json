@@ -1,0 +1,14 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "author": "Drew Jess (hybby) ",
+  "summary": "Says \"hello\" to the world!",
+  "license": "Apache 2.0",
+  "source": "https://github.com/hybby/puppet_syntaxcheck",
+  "project_page": "https://github.com/hybby/puppet_helloworld",
+  "issues_url": "https://github.com/hybby/puppet_helloworld",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+
