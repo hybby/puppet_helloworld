@@ -74,7 +74,7 @@ With these, you can test how different pieces of data are passed into modules.
 This is particularly useful if you want to test [Roles and Profiles](https://github.com/hunner/roles_and_profiles/blob/master/Roles_and_profiles.pdf).
 
 
-## What if I just want to test out a blank module?
+## What if I just want to test out arbitrary code, with no fanciness?
     
 Just clear out the `modules/helloworld/manifests/init.pp` file with the following:
     
