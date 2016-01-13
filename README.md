@@ -2,7 +2,7 @@
 
 The `puppet_helloworld` project is a simple way to test out Puppet code.
 
-Y'know, if you don't have a handy master handy and you wanna see how `split()` behaves, or something.
+Y'know, if you don't have a master handy and you wanna see how `split()` behaves, or something.
 
 Useful for testing out [Roles and Profiles](https://github.com/hunner/roles_and_profiles/blob/master/Roles_and_profiles.pdf), too.
 
