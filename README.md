@@ -1,7 +1,10 @@
 # Overview
 
 The `puppet_helloworld` project is a simple way to test out Puppet code.
-Y'know, if you don't have a handy master handy and you wanna see how `split()` behaves.
+
+Y'know, if you don't have a handy master handy and you wanna see how `split()` behaves, or something.
+
+Useful for testing out [Roles and Profiles](https://github.com/hunner/roles_and_profiles/blob/master/Roles_and_profiles.pdf), too.
 
 # Getting started
 
@@ -64,7 +67,7 @@ The default notifies test a few things.
 
 With these, you can test how different pieces of data are passed into modules.  
 
-This is particularly useful if you want to test Roles and Profiles.
+This is particularly useful if you want to test [Roles and Profiles](https://github.com/hunner/roles_and_profiles/blob/master/Roles_and_profiles.pdf).
 
 
 ## What if I just want to test out a blank module?
